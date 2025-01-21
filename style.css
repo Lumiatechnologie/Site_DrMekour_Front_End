@@ -11,7 +11,7 @@ Version:	1.1
 * Header CSS
 	+ Topbar
 	+ Logo
-	+ Widget
+	+ Widgetdfgdfgdg
 	+ Main Menu
 	+ Search
 * Hero Slider CSS
@@ -251,7 +251,8 @@ body{
 }
 /* Topbar */
 .header .topbar{
-	background-color:#fff;
+	background: linear-gradient(to left, #0079e2, #00a99e);
+    color: white;
 	border-bottom:1px solid #eee;
 }
 .header .topbar{
@@ -268,12 +269,12 @@ body{
 	margin-right:0px;
 }
 .header .top-link li a{
-	color:#2C2D3F;
+	color:#ffffff;
 	font-size:14px;
 	font-weight:400;
 }
 .header .top-link li:hover a{
-	color:#1A76D1;
+	color:#8d8d8e;
 }
 .header .top-contact{
 	float:right;
@@ -281,7 +282,7 @@ body{
 .header .top-contact li{
 	display:inline-block;
 	margin-right:25px;
-	color:#2C2D3F;
+	color:#ffffff;
 }
 .header .top-contact li:last-child{
 	margin-right:0;
@@ -290,10 +291,10 @@ body{
 	font-size:14px;
 }
 .header .top-contact li a:hover{
-	color:#1A76D1;
+	color:#cecece;
 }
 .header .top-contact li i{
-	color:#1A76D1;
+	color:#ffffff;
 	margin-right:8px;
 }
 .header .header-inner {
