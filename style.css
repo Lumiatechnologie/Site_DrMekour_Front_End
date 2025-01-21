@@ -251,7 +251,7 @@ body{
 }
 /* Topbar */
 .header .topbar{
-	background: linear-gradient(to left, #0079e2, #00a99e);
+	background: linear-gradient(to left, #0041a9, #00a99e);
     color: white;
 	border-bottom:1px solid #eee;
 }
@@ -274,7 +274,8 @@ body{
 	font-weight:400;
 }
 .header .top-link li:hover a{
-	color:#8d8d8e;
+	color:#ffffff;
+	text-decoration: underline;
 }
 .header .top-contact{
 	float:right;
@@ -291,7 +292,8 @@ body{
 	font-size:14px;
 }
 .header .top-contact li a:hover{
-	color:#cecece;
+	color:#ffffff;
+	text-decoration: underline;
 }
 .header .top-contact li i{
 	color:#ffffff;
@@ -307,6 +309,7 @@ body{
 }
 .get-quote .btn{
 	color:#fff;
+	background: linear-gradient(to left, #0041a9, #0041a9);
 }
 .header .logo {
 	float: left;
@@ -623,7 +626,7 @@ body{
 }
 .slider .single-slider .btn{
 	color:#fff;
-	background:#1a76d1;
+	background: linear-gradient(to left, #0041a9, #00a99e);
 	font-weight:500;
 	display:inline-block;
 	margin:0;
@@ -633,7 +636,7 @@ body{
 	margin:0;
 }
 .slider .single-slider .btn.primary{
-	background:#2C2D3F;
+	background: linear-gradient(to left, #0041a9, #00a99e);
 	color:#fff;
 }
 .slider .single-slider .btn.primary:before{
