@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 56
+  "liveServer.settings.port": 56,
+  "livePreview.defaultPreviewPath": "/rendez-vous-success.html"
 }

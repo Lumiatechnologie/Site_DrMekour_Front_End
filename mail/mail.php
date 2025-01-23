@@ -47,12 +47,12 @@ try {
 
     // Email content
     $mail->isHTML(false); // Set email format to plain text
-    $mail->Subject = "New Message: $subject";
+    $mail->Subject = "vous avez reçu une nouvelle message depuis le site web: $subject";
     $mail->Body = $email_message;
 
     // Send the email
     $mail->send();
-    header("Location: ../mail-success.html");
+    header("Location: ../contact-success.html");
 } catch (Exception $e) {
     // Check if the error is related to SMTP authentication
     if (strpos($mail->ErrorInfo, 'SMTP Error: Could not authenticate') !== false) {
