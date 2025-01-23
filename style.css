@@ -141,6 +141,12 @@ body {
 #scrollUp:hover {
   background: #2c2d3f;
 }
+/* texte cabinet */
+.text1{
+font-size: 24px;
+color: #000;
+
+}
 /* Color Plate */
 .color-plate {
   position: fixed;
@@ -1471,7 +1477,7 @@ body {
   border-radius: 3px;
   margin: 0 0 0 -52px;
   margin-top: 49px;
-  box-sizing: ;
+
 }
 .testimonials .owl-dots .owl-dot {
   display: inline-block;
