@@ -12,6 +12,9 @@
         }
     ],
     "require": {
-        "phpmailer/phpmailer": "^6.9"
+        "phpmailer/phpmailer": "^6.9",
+        "drewm/mailchimp-api": "^2.5",
+        "mailchimp/marketing": "^3.0",
+        "mailchimp/mailchimp": "^2.0"
     }
 }

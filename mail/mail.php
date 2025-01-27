@@ -1,5 +1,5 @@
 <?php
-ini_set('include_path', '.;C:\php\pear;C:\Users\ayman\Desktop\Site_DrMekour_Front_End\vendor');
+ini_set('include_path', value: '.;C:\php\pear;C:\Users\ayman\Desktop\Site_DrMekour_Front_End\vendor');
 
 require __DIR__ . '/../vendor/autoload.php';
 
