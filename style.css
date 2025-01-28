@@ -249,7 +249,7 @@ color: #000;
 	Start Header CSS 
 =====================*/
 .header {
-  background-color: #fff;
+  background-color: #ffffff;
   position: relative;
 }
 .header .navbar-collapse {
@@ -625,7 +625,8 @@ color: #000;
 .slider .single-slider p {
   color: #2c2d3f;
   margin-top: 27px;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 18px;
 }
 .slider .single-slider .button {
   margin-top: 30px;
