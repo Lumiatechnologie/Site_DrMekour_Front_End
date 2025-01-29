@@ -161,8 +161,8 @@
             <div class="col-lg-6 col-md-5 col-12">
               <!-- Contact -->
               <ul class="top-link">
-                <li><a href="#">À propos de nous</a></li>
-                <li><a href="portfolio-details.html">Cabinet</a></li>
+                <li><a href="#a-propos" id="btn-a-propos">À propos de nous</a></li>
+                <li><a href="#" id="btn-cabinet">Cabinet</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <!--<li><a href="#">FAQ</a></li>-->
               </ul>
@@ -218,9 +218,10 @@
                           <!--<li><a href="index.html">Home Page 1</a></li>-->
                         </ul>
                       </li>
-                      <li><a href="portfolio-details.html">Cabinet </a></li>
+                      <li><a href="#notre-cabinet" id="btn-cabinet">Cabinet</a></li>
 
-                      <li><a href="#">Services </a></li>
+
+                      <li><a href="#a-propos" id="btn-a-propos">Services </a></li>
                       <!--<li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
                         <ul class="dropdown">
                           <li><a href="404.html">404 Error</a></li>
@@ -650,7 +651,7 @@
     <!--/ End Call to action -->
 
     <!-- Start portfolio -->
-    <section class="portfolio section">
+    <section id="notre-cabinet" class="portfolio section">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -710,7 +711,7 @@
     <!--/ End portfolio -->
 
     <!-- Start service -->
-    <section class="services section">
+    <section id="a-propos" class="services section">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -1471,5 +1472,19 @@
         }
       });
     </script>
+    <script>
+      document.getElementById("btn-cabinet").addEventListener("click", function (event) {
+        event.preventDefault(); // Empêche le comportement par défaut du lien
+        document.getElementById("notre-cabinet").scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+    <script>
+      document.getElementById("btn-a-propos").addEventListener("click", function (event) {
+        event.preventDefault(); // Empêche le lien d'agir comme un lien classique
+        document.getElementById("a-propos").scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+    
+    
   </body>
 </html>
