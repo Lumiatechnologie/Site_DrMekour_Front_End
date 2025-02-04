@@ -86,8 +86,8 @@
 						<div class="col-lg-6 col-md-5 col-12">
 							<!-- Contact -->
 							<ul class="top-link">
-								<li><a href="#">À propos de nous</a></li>
-								<li><a href="portfolio-details.html">Cabinet</a></li>
+								<li><a href="#a-propos" id="btn-a-propos">À propos de nous</a></li>
+								<li><a href="#" id="btn-cabinet">Cabinet</a></li>
 								<li><a href="contact.html">Contact</a></li>
 								<!--<li><a href="#">FAQ</a></li>-->
 							</ul>
@@ -169,7 +169,7 @@
 				<div class="bread-inner">
 					<div class="row">
 						<div class="col-12">
-							<h2>Contact Us</h2>
+							<h2>Contactez nous </h2>
 							<ul class="bread-list">
 								<li><a href="index.html">Accueil</a></li>
 								<li><i class="icofont-simple-right"></i></li>
@@ -421,5 +421,17 @@
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
+		<script>
+			document.getElementById("btn-cabinet").addEventListener("click", function (event) {
+			  event.preventDefault(); // Empêche le comportement par défaut du lien
+			  document.getElementById("notre-cabinet").scrollIntoView({ behavior: "smooth" });
+			});
+		  </script>
+		  <script>
+			document.getElementById("btn-a-propos").addEventListener("click", function (event) {
+			  event.preventDefault(); // Empêche le lien d'agir comme un lien classique
+			  document.getElementById("a-propos").scrollIntoView({ behavior: "smooth" });
+			});
+		  </script>
     </body>
 </html>
